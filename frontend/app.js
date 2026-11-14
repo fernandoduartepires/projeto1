@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://SUA-URL-DO-RENDER.onrender.com/api'; // Coloque aqui a URL da sua API no Render (mantenha o /api no final)
+const API_BASE_URL = 'https://projeto1-ngrc.onrender.com/api';
 
 function getEffectiveApiBaseUrl() {
     const raw = (API_BASE_URL || '').trim().replace(/\/+$/, '');
